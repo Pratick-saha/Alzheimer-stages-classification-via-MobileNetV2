@@ -15,5 +15,6 @@ Blood Biomarker is a measurable indicator in the body that indicates the disease
 
 Then I studied hippocampal atrophy, ventricles and the limbic system mean, and which MRI/PET changes correspond
 to early vs. progressive disease. I collected a labeled MRI dataset `(folders: "NonDemented", "VeryMildDemented", "MildDemented",
-"ModerateDemented")` and explored literature and benchmarks (ADNI, AD classification papers) to shape my project goals: build
+"ModerateDemented")` and then I resize them into three categories `(folders: "NonDemented", "MildDemented",
+"ModerateDemented")`  and explored literature and benchmarks (ADNI, AD classification papers) to shape my project goals: build
 an image-based classifier for Alzheimer stage detection and learn about blood/CFS biomarkers and how imaging relates to clinical progression.
