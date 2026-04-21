@@ -1,4 +1,4 @@
-# Alzheimer-stages-classification-via-MobileNetV2
+# Alzheimer-stages-classification-using-Deeplearning
 This project is based on **Early detection** of **neurodegenerative disease** ,I started by studying _"_what are the methods by which I can detect these disease_"_
 so, I gather ideas on --
 * Blood Biomarker
