@@ -1,4 +1,4 @@
-# Alzheimer-stages-classification-using-Deeplearning
+# MRI bassed-Alzheimer-stages-detection-using-Deeplearning
 This project is based on **Early detection** of **neurodegenerative disease** ,I started by studying _"_what are the methods by which I can detect these disease_"_
 so, I gather ideas on --
 * Blood Biomarker
@@ -18,3 +18,44 @@ to early vs. progressive disease. I collected a labeled MRI dataset `(folders: "
 "ModerateDemented")` and then I resize them into three categories `(folders: "NonDemented", "MildDemented",
 "ModerateDemented")`  and explored literature and benchmarks (ADNI, AD classification papers) to shape my project goals: build
 an image-based classifier for Alzheimer stage detection and learn about blood/CFS biomarkers and how imaging relates to clinical progression.
+
+***
+# **MRI(Magnetic Resonance Imaging)** I used for the prediction of different classification's of Alzheimer 
+***
+steps:-
+
+ _**1. collect the Dataset**_ 
+ - **Dataset Source**: _kaggle:https://www.kaggle.com/datasets_
+   
+ _**2. Data Preprocessing**_
+
+  - **Image Resizing**: _All MRI images were resized to a fixed size 224 × 224 pixels (pixels depending on your implementation)_
+  - **Normalization**
+  - **Label Encoding**
+    
+ _**3. Dataset Splitting**_
+  - **Dataset divided into: Training Set, Validation Set, Testing Set (70%,20%,10%) (I used this ratio)**
+    
+ _**4. Data Augmentation**_
+  
+ _**5. Feature Extraction**_
+   
+ _**6. Forward Propagation**_
+   
+ _**7. Loss Calculation**_
+   
+ _**8. Backpropagation**_
+   
+ _**9. Weight Update**_
+   
+ _**10. Epoch-Based Training**_
+   
+ _**11. Model Evaluation**_
+   
+ _**12. Model Saving**_
+   
+ _**13. User Uploads MRI Image**_
+   
+ _**14. Preprocessing of Uploaded Image**_
+   
+ _**15. Prediction by CNN**_
