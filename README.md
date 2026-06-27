@@ -59,3 +59,48 @@ steps:-
  _**14. Preprocessing of Uploaded Image**_
    
  _**15. Prediction by CNN**_
+
+***
+# REASON WHY CHOOSE THIS(GIVEN) DATASET FOR MY PROJECT (AS PER THE PAPER DETAILS)
+***
+ _**1. Original Dataset**_
+   - _The dataset used is the OASIS MRI dataset_
+     
+ _**2. File Conversion**_
+  - _`.img` and `.hdr` converted into `.nii`_
+  - Original Scanner(The Pipeline)
+
+         ↓
+         
+         .img
+         .hdr
+         
+         ↓
+         
+         NIfTI (.nii)
+         
+         ↓
+         
+         2D JPG
+   
+ _**3. 461 Patients**_
+  -This is one of the best parts.
+     Many Kaggle datasets only say: "Contains 6000 images." But this one tells you: `461 real patients` (which mean `~170 per slices`and all total `~80,000 MRI images`)That is much more scientifically meaningful.
+   
+ _**4. Slicing Along the Z-axis**_
+  - _brain images were sliced along the z-axis into 256 pieces_
+  - _slices 100–160 were selected_
+   
+ _**5. Classification**_
+  -They mention:
+   CDR values: It means labels are based on actual clinical diagnoses rather than arbitrary folder names.
+  For example:
+  
+           | CDR | Class        |
+         | --- | ------------ |
+         | 0   | Non Demented |
+         | 0.5 | Very Mild    |
+         | 1   | Mild         |
+         | 2   | Moderate     |
+
+  
